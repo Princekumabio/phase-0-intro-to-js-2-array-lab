@@ -25,12 +25,12 @@ function appendCat(name){
 
 function prependCat(name){
   return [name,...cats];
-}
+};
 
 function removeLastCat(){
-  return cats.slice(3);
-}
+  return cats.splice(-1);
+};
 
 function removeFirstCat(){
   return cats.slice(1);
-}
+};
