@@ -28,8 +28,8 @@ function prependCat(name){
 };
 
 function removeLastCat(){
-  return cats.splice(-1);
-};
+  return cats.slice(0, cats.length - 1);
+}
 
 function removeFirstCat(){
   return cats.slice(1);
